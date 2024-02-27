@@ -1,54 +1,55 @@
-Audiopal Voice Assistant
-Audiopal is a voice assistant designed to make your life easier by providing hands-free access to various functionalities. This voice assistant is equipped to perform tasks such as searching for videos on YouTube, telling the date and time, and retrieving information about any person from Wikipedia. Audiopal aims to enhance user convenience through voice-activated commands.
+# Audiopal Voice Assistant
 
-Table of Contents
-Features
-Installation
-Usage
-Commands
-Examples
-Contributing
-License
-Features
-YouTube Video Search: Audiopal can search for videos on YouTube based on your voice commands.
+Welcome to Audiopal, your personal voice assistant! Audiopal is designed to help you seamlessly search for videos on YouTube, get the current date and time, and fetch information about any person from Wikipedia, all through voice commands.
 
-Date and Time: Get the current date and time by simply asking Audiopal.
+## Getting Started
 
-Wikipedia Knowledge: Obtain information about any person from Wikipedia using voice prompts.
+To get started with Audiopal, follow these simple steps:
 
-Installation
-Clone the repository:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/audiopal.git
+   cd audiopal
+   ```
 
-bash
-Copy code
-git clone https://github.com/your-username/audiopal.git
-cd audiopal
-Install dependencies:
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-bash
-Copy code
-pip install -r requirements.txt
-Set up API keys:
+3. **Run Audiopal:**
+   ```bash
+   python audiopal.py
+   ```
 
-Obtain a YouTube Data API key and add it to the config.yaml file.
-Run the Audiopal script:
+## Voice Commands
 
-bash
-Copy code
-python audiopal.py
-Usage
-Audiopal operates through voice commands. Simply speak your request, and Audiopal will process it accordingly.
+Audiopal supports the following voice commands:
 
-Commands
-YouTube Video Search:
+- **"Audiopal, search for videos on YouTube"**
+  - This command triggers a YouTube video search. Audiopal will prompt you to speak the search query.
 
-Command: "Search for {video_title} on YouTube."
-Example: "Search for funny cat videos on YouTube."
-Date and Time:
+- **"Audiopal, tell me the date and time"**
+  - Audiopal will respond with the current date and time.
 
-Command: "What is the date and time?"
-Example: "What is the date and time right now?"
-Wikipedia Knowledge:
+- **"Audiopal, tell me about [person]"**
+  - Replace `[person]` with the name of the person you want information about. Audiopal will fetch the relevant details from Wikipedia.
 
-Command: "Tell me about {person_name} from Wikipedia."
-Example: "Tell me about Albert Einstein from Wikipedia."
+## Customize Audiopal
+
+Feel free to customize Audiopal according to your preferences. You can modify the behavior, add new features, or integrate with additional APIs.
+
+## Contributing
+
+If you'd like to contribute to Audiopal, please check out our [contribution guidelines](CONTRIBUTING.md) to get started.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Audiopal is built using Python and is meant for educational and personal use.
+- Special thanks to the open-source community for their valuable contributions.
+
+Enjoy using Audiopal, and let your voice guide you through a seamless experience!
