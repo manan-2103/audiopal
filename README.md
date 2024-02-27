@@ -42,11 +42,6 @@ Feel free to customize Audiopal according to your preferences. You can modify th
 ## Contributing
 
 If you'd like to contribute to Audiopal, please check out our [contribution guidelines](CONTRIBUTING.md) to get started.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - Audiopal is built using Python and is meant for educational and personal use.
